@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-ul,li {
+ul,
+li {
     list-style-type: none;
     display: flex;
     padding-left: 10px;
@@ -20,7 +21,7 @@ header {
     background-color: aqua;
     display: flex;
     justify-content: center;
-   
+
 }
 
 .navbar {
@@ -31,8 +32,9 @@ header {
     margin: 10px 0;
     width: 70%;
     padding: 3px;
-    
+
 }
+
 /* header finito */
 
 .hero-section {
@@ -50,6 +52,7 @@ header {
     margin: 0 auto;
     border: 2px dotted black;
 }
+
 /* seconda e quarta section */
 
 .features-section {
@@ -109,6 +112,7 @@ header {
     background-color: rgb(233, 233, 43);
     border: 2px dotted;
 }
+
 /* penultima section */
 
 .box-gray {
@@ -127,15 +131,14 @@ header {
 
 /* footer */
 .pie-di-pagina {
-    background-color: black;
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .foot-container {
-    background-color: yellow;
     min-height: 300px;
     flex-basis: 70%;
     border: 5px dotted white;
@@ -146,12 +149,13 @@ header {
 .left-box {
     flex-basis: calc((100 / 4) *12);
     background-color: brown;
-    height: 100%;
-    display: flex;
+    border-right: 4px dotted black;
 }
 
 .right-box {
-    
+    background-color: blueviolet;
+    display: flex;
+
 }
 
 .col-4 {
@@ -160,4 +164,29 @@ header {
 
 .col-8 {
     flex-basis: calc((100% / 12) * 8);
+}
+
+.col-3 {
+    flex-basis: calc((100% / 12) * 4);
+    background-color: blanchedalmond;
+    border: 2px dotted black;
+}
+
+/* bottoni finali */
+
+.bottoni-finali {
+    display: ;
+    background-color: #20b2aa;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+
+}
+
+.logo,
+.bottone {
+    background-color: rgb(213, 120, 136);
+    border: 3px dotted black;
+    padding: 5px;
 }
